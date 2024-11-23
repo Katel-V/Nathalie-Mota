@@ -14,7 +14,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;,">
     
-    <?php wp_head(); // Ajoute - Scripts & Styles WordPress à l'en-tête ?>
+    <?php wp_head(); ?>  <!-- Ajoute - Scripts & Styles WordPress à l'en-tête -->
 </head>
 <body>
     <!-- Section d'en-tête -->
