@@ -154,7 +154,7 @@
             <!-- Conteneur de miniatures individuelles -->
             <div class="thumbnail-container">
                 <div class="thumbnail-wrapper">
-                    <img src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id()); ?>" />
+                   
                 </div>
                 <a href="<?php echo esc_url($prev_permalink); ?>" class="arrow-link" data-thumbnail="<?php echo esc_url(get_the_post_thumbnail_url($prev_post, 'thumbnail')); ?>" id="prev-arrow-link">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flèche-gauche.webp" alt="Précédent" class="arrow-img-gauche" id="prev-arrow" />
