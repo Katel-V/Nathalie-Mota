@@ -299,7 +299,7 @@ input[type=submit]:hover {background-color: #cccaca;}
     padding: 5px 10px;
 }
 
-/* Styles d'Étiquettes pour le Contact Form 7 */
+/* Contact Form 7 */
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
 .wpcf7 textarea,
@@ -312,7 +312,7 @@ input[type=submit]:hover {background-color: #cccaca;}
     text-align: left;
 }
 
-/* Style d'Étiquette de Message pour le Contact Form 7 */
+/* Style pour Message pour le Contact Form 7 */
 .wpcf7 textarea[name="your-message"] { height: 190px;}
 
 /* MOBILE - BOUTON BURGER */
