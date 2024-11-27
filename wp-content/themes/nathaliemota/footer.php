@@ -4,7 +4,7 @@
             <p>Tous droits réservés</p>
 
 
-    <?php get_template_part ('template-parts/contact-modal.php'); ?>
+    
     
 <?php wp_footer(); ?>
 
