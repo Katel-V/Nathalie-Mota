@@ -32,6 +32,13 @@ function enqueue_custom_scripts() {
 }
 add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
 
+// Ajout de Select2 pour modifier la couleur des filtres selectionnés
+function enqueue_select2_jquery() {
+    wp_enqueue_style('select2-css', '//cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css', false, null);
+    wp_enqueue_script('select2-js', '//cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js', array('jquery'), null, true);
+}
+add_action('wp_enqueue_scripts', 'enqueue_select2_jquery');
+
 // Ajouter de FontAwesome
 function enqueue_font_awesome() {
     wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'); 

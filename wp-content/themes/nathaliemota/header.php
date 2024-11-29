@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+   
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;,">
     
     <?php wp_head(); ?>  <!-- Ajoute - Scripts & Styles WordPress à l'en-tête -->
@@ -26,7 +29,7 @@
             $logo = wp_get_attachment_image_src($custom_logo_id, 'full');
             ?>
             <a href="<?php echo home_url(); ?>">
-                <img src="http://photo-nathalie.local/wp-content/uploads/2024/10/Logo.webp" alt="Logo">
+                <img src="http://photo-nathalie-bis.local/wp-content/uploads/2024/10/Logo.webp" alt="Logo">
             </a>
         </div>
 
