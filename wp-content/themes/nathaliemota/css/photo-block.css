@@ -150,6 +150,11 @@
     justify-content: space-between;
 }
 
+.filters-and-sort option:hover {
+    background-color: #E00000;
+    color: white;
+}
+
 /*option:checked {
     background-color: #E00000;
     color: white;

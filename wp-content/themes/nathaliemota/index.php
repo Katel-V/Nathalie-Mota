@@ -32,7 +32,7 @@
 <!-- Section - Filtres -->
 <div class="filters-and-sort">
     <!-- Filtre - Categorie -->
-    <label for="category-filter"></label>
+    <label for="category-filter" class="dropbtn"></label>
     <select name="category-filter" id="category-filter">
         <option value="ALL">CATÉGORIE</option>
         <?php
@@ -44,7 +44,7 @@
     </select>
 
     <!-- Filtre - Format -->
-    <label for="format-filter"></label>
+    <label for="format-filter" class="dropbtn"></label>
     <select name="format-filter" id="format-filter">
         <option value="ALL">FORMAT</option>
         <?php
@@ -56,7 +56,7 @@
     </select>
 
     <!-- Filtre - Trier par date -->
-    <label for="date-sort"></label>
+    <label for="date-sort" class="dropbtn"></label>
     <select name="date-sort" id="date-sort">
         <option value="ALL">TRIER PAR</option>
         <option value="DESC">A partir des plus récentes</option>
