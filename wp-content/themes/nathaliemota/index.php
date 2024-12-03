@@ -34,7 +34,7 @@
     <!-- Filtre - Categorie -->
     <label for="category-filter" class="dropbtn"></label>
     <select name="category-filter" id="category-filter">
-        <option value="ALL">CATÉGORIE</option>
+        <option class="col" value="ALL">CATÉGORIE</option>
         <?php
         $photo_categories = get_terms('categorie');
         foreach ($photo_categories as $category) {
@@ -46,7 +46,7 @@
     <!-- Filtre - Format -->
     <label for="format-filter" class="dropbtn"></label>
     <select name="format-filter" id="format-filter">
-        <option value="ALL">FORMAT</option>
+        <option class="col" value="ALL">FORMAT</option>
         <?php
         $photo_formats = get_terms('format');
         foreach ($photo_formats as $format) {
@@ -58,9 +58,9 @@
     <!-- Filtre - Trier par date -->
     <label for="date-sort" class="dropbtn"></label>
     <select name="date-sort" id="date-sort">
-        <option value="ALL">TRIER PAR</option>
-        <option value="DESC">A partir des plus récentes</option>
-        <option value="ASC">A partir des plus anciennes</option>
+        <option class="col" value="ALL">TRIER PAR</option>
+        <option class="col" value="DESC">A partir des plus récentes</option>
+        <option class="col" value="ASC">A partir des plus anciennes</option>
     </select>
 </div>
 
