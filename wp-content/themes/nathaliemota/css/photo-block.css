@@ -149,8 +149,7 @@
     border: 1.3px solid #B8BBC2;  
     justify-content: space-between;
 }
-
-.filters-and-sort option:hover {
+.filters-and-sort label, .filters-and-sort option, .col:hover {
     background-color: #E00000;
     color: white;
 }
